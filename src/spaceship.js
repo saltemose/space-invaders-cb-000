@@ -8,7 +8,7 @@ class Spaceship {
     this.cloaked = false;
     this.warpDrive = 'disengaged';
     this.phasersCharge = 'uncharged';
-    crew.length ? (this.docked = false) : (this.docked = true);
+    crew.length > 0 ? (this.docked = false) : (this.docked = true);
     this.notifyCrew();
   }
   notifyCrew() {
