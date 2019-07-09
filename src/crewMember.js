@@ -19,7 +19,6 @@ class CrewMember {
       return "had no effect"
     }
   }
-}
 
   setsInvisibility(){
     if(this.position === "Defender" && this.currentShip !== "Looking for a Rig"){
@@ -29,3 +28,4 @@ class CrewMember {
       return "had no effect"
     }
   }
+}
