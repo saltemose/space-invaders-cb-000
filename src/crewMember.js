@@ -1,5 +1,5 @@
 class CrewMember {
-  constructor(position) {
+  constructor(position, ship) {
     this.position = position;
     if this.ship {
       this.ship = ship
