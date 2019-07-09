@@ -5,5 +5,8 @@ class Spaceship {
     this.crew = crew;
     this.phasers = phasers;
     this.shields = shields;
+    this.cloaked = false;
+    this.warpDrive = 'disengaged';
+    this.phasersCharge = 'uncharged';
   }
 }
