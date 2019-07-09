@@ -1,5 +1,5 @@
 class CrewMember {
-  conductor(position) {
+  constructor(position) {
     this.position = position;
   }
 }
