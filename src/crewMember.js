@@ -10,4 +10,8 @@ class CrewMember {
     }
     else {return "had no effect"}
   }
+
+  chargePhasers() {
+
+  }
 }
